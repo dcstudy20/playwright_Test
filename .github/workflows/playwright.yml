@@ -8,10 +8,6 @@ jobs:
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    env:
-      RUNNER: ${{ secrets.RUNNER }}
-      NOP_COMM_USERNAME: ${{ secrets.NOP_COMM_USERNAME }}
-      NOP_COMM_PASSWORD: ${{ secrets.NOP_COMM_PASSWORD }}
     steps:
     - uses: actions/checkout@v6
     - uses: actions/setup-node@v6
@@ -22,7 +18,7 @@ jobs:
     - name: Install Playwright Browsers
       run: npx playwright install --with-deps
     - name: Run Playwright tests
-      run: npm run test:e2e
+      run: npx playwright test
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
