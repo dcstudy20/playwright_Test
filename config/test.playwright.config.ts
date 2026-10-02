@@ -14,7 +14,7 @@ export default defineConfig<EnvConfig>({
         nopCommerce: "https://admin-demo.nopcommerce.com",
         baseURL: 'https://reqres.in',
         dbConfig: {},
-        headless: false, // Override headless option if needed
+        headless: true, // Override headless option if needed
         screenshot: 'only-on-failure', // Override screenshot option if needed
     }
 })

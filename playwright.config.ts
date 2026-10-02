@@ -47,7 +47,7 @@ export const baseConfig = defineConfig({
     trace: 'on-first-retry',
     browserName: 'chromium',
     channel: 'chrome',
-    headless: false,
+    headless: true,
     navigationTimeout: 30000,
     screenshot: "on",
     // video: 'retain-on-failure',
