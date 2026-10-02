@@ -1,0 +1,16 @@
+{
+    "STATUSCODE": {
+        "SUCCESS": 200,
+        "FAILURE": 400
+    },
+
+    "REQ_RES_API": {
+        "GET_USER_LIST": "/api/users?page=2",
+        "POST_USER": "/api/users"
+    },
+
+    "NOP_COMMERCE": {
+         "URL": "/Admin/Customer/List"
+    }
+       
+}

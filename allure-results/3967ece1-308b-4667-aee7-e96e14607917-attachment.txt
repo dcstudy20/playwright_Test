@@ -1,0 +1,13 @@
+[INFO]: Login to https://admin-demo.nopcommerce.com
+[INFO]: Navigating to path: https://admin-demo.nopcommerce.com
+[INFO]: Login successful
+[INFO]: Homepage is successfully launched
+[INFO]: Making a GET call to https://reqres.in/api/users?page=2
+[INFO]: GET call is successfull with 200
+[INFO]: Navigating to path: https://admin-demo.nopcommerce.com/Admin/Customer/List
+[INFO]: Searching customer with firstname as Michael and lastname as Lawson
+[INFO]: Searching customer with firstname as Lindsay and lastname as Ferguson
+[INFO]: Searching customer with firstname as Tobias and lastname as Funke
+[INFO]: Searching customer with firstname as Byron and lastname as Fields
+[INFO]: Searching customer with firstname as George and lastname as Edwards
+[INFO]: Searching customer with firstname as Rachel and lastname as Howell

@@ -1,0 +1,27 @@
+{
+  "name": "playwright_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parabank": "npx playwright test tests/parabank.spec.ts",
+    "test:demoShop": "npx playwright test tests/demoWebShop.spec.ts",
+    "test:tag": "npx playwright test --grep @smoke",
+    "test:exmpl": "npx playwright test tests/example.spec.ts",
+    "test:parabank": "npx playwright test --config=config/test.playwright.config.ts tests/parabank.spec.ts",
+    "test:e2e": "npx playwright test --config=config/test.playwright.config.ts tests/e2e/nopcommerce.e2e.spec.ts",
+    "test:api": "npx playwright test --config=config/test.playwright.config.ts tests/api/users.api.spec.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2",
+    "allure-playwright": "^3.10.2",
+    "chalk": "^6.0.0",
+    "csv-parse": "^7.0.2",
+    "dotenv": "^17.4.2"
+  }
+}

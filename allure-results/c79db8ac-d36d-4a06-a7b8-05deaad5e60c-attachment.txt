@@ -1,0 +1,6 @@
+[WARN]: Customer Michael Lawson not found in the list
+[WARN]: Customer Lindsay Ferguson not found in the list
+[WARN]: Customer Tobias Funke not found in the list
+[WARN]: Customer Byron Fields not found in the list
+[WARN]: Customer George Edwards not found in the list
+[WARN]: Customer Rachel Howell not found in the list
