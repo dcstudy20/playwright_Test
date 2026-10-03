@@ -16,4 +16,4 @@ async function takeElementScreenshot(screenshotName:string, ele:Locator) {
     })
 }
 
-export default {takeFullScreenShot, takeElementScreenshot }
+export {takeFullScreenShot, takeElementScreenshot }
